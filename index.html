@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MooToken (MOO)</title>
+<style>
+  * {margin:0;padding:0;box-sizing:border-box;}
+  body {font-family:'Arial',sans-serif;line-height:1.6;color:#333;background:#f9f9f9;scroll-behavior:smooth;}
+  a {text-decoration:none;color:#4caf50;}
+  
+  /* Header / Hero */
+  header {background:#4caf50;color:white;padding:80px 20px;text-align:center;position:relative;}
+  header h1 {font-size:3em;margin-bottom:10px;}
+  header p {font-size:1.2em;}
+  header a {display:inline-block;margin-top:20px;padding:12px 25px;background:white;color:#4caf50;font-weight:bold;border-radius:5px;transition:0.3s;}
+  header a:hover {background:#fffbe6;color:#388e3c;}
+
+  /* Menu navigasi sticky */
+  nav {position:sticky;top:0;background:white;box-shadow:0 2px 5px rgba(0,0,0,0.1);z-index:999;}
+  nav ul {display:flex;justify-content:center;list-style:none;padding:10px 0;}
+  nav ul li {margin:0 15px;}
+  nav ul li a {color:#4caf50;font-weight:bold;transition:0.3s;}
+  nav ul li a:hover {color:#388e3c;}
+  
+  /* Section umum */
+  section {padding:60px 20px;max-width:900px;margin:auto;}
+  h2 {color:#4caf50;margin-bottom:20px;text-align:center;}
+  ul {margin-left:20px;margin-bottom:20px;}
+  
+  /* Timeline Roadmap */
+  .timeline {position:relative;margin-left:30px;}
+  .timeline::before {content:'';position:absolute;left:20px;top:0;width:3px;height:100%;background:#4caf50;}
+  .timeline div {position:relative;margin-bottom:40px;padding-left:30px;opacity:0;transform:translateX(-50px);transition:all 0.6s ease;}
+  .timeline div.visible {opacity:1;transform:translateX(0);}
+  
+  /* Footer */
+  footer {background:#333;color:white;text-align:center;padding:20px;}
+  footer a {color:#4caf50;}
+  
+  /* Responsive */
+  @media(max-width:600px){
+    header h1 {font-size:2.2em;}
+    header p {font-size:1em;}
+    nav ul {flex-direction:column;}
+    nav ul li {margin:5px 0;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>MooToken (MOO)</h1>
+  <p>Token Ekonomi Pangan & Peternakan Riil di Indonesia</p>
+  <a href="https://drive.google.com/uc?export=download&id=1PGnq_mUmoJTweN2DqbimH7m-QKoXOVpI" target="_blank">Baca Whitepaper</a>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#pendahuluan">Pendahuluan</a></li>
+    <li><a href="#tokenomics">Tokenomics</a></li>
+    <li><a href="#mekanisme">Mekanisme</a></li>
+    <li><a href="#utility">Utility</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#visi">Visi</a></li>
+  </ul>
+</nav>
+
+<section id="pendahuluan">
+  <h2>Pendahuluan</h2>
+  <p>MooToken (MOO) adalah token komunitas berbasis sektor pangan dan peternakan nyata di Indonesia. Berbeda dengan mayoritas token spekulatif, MooToken didukung aktivitas ekonomi riil seperti peternakan sapi, padi, jagung, ayam, dan komoditas pangan lain.</p>
+  <h3>Problem Statement</h3>
+  <ul>
+    <li>Akses modal terbatas bagi petani/peternak kecil.</li>
+    <li>Harga pangan tidak stabil karena rantai distribusi panjang.</li>
+    <li>Minimnya transparansi dalam perputaran ekonomi pangan.</li>
+  </ul>
+  <h3>Solusi MooToken</h3>
+  <p>MooToken hadir sebagai jembatan antara sektor riil & blockchain. Model: jual token → modal usaha → hasil usaha → buyback token. Nilai MOO didukung oleh produktivitas nyata, bukan sekadar hype.</p>
+  <p><strong>Visi:</strong> “Menjadikan MooToken sebagai representasi ekonomi pangan Indonesia berbasis blockchain.”</p>
+</section>
+
+<section id="tokenomics">
+  <h2>Tokenomics</h2>
+  <ul>
+    <li><strong>Nama:</strong> MooToken</li>
+    <li><strong>Simbol:</strong> MOO</li>
+    <li><strong>Blockchain:</strong> TON (The Open Network)</li>
+    <li><strong>Total Supply:</strong> 1.000.000.000 MOO (fixed, non-mintable)</li>
+  </ul>
+  <h3>Distribusi Supply</h3>
+  <ul>
+    <li><strong>Wallet 1 (Ekonomi & DEX):</strong> 50% → listing DEX, modal usaha riil, buyback rutin.</li>
+    <li><strong>Wallet 2 (Cadangan Abadi):</strong> 50% → reserve jangka panjang, tidak disentuh.</li>
+  </ul>
+</section>
+
+<section id="mekanisme">
+  <h2>Mekanisme Ekonomi</h2>
+  <ul>
+    <li><strong>Modal Usaha:</strong> Penjualan MOO dari Wallet 1 membiayai usaha riil.</li>
+    <li><strong>Buyback Rutin:</strong> 30% keuntungan usaha → buyback MOO bulanan.</li>
+    <li><strong>Transparansi:</strong> Laporan hasil usaha & buyback diumumkan publik.</li>
+    <li><strong>Sirkulasi Sehat:</strong> Wallet 2 menjaga kestabilan supply.</li>
+  </ul>
+</section>
+
+<section id="utility">
+  <h2>Utility MooToken</h2>
+  <ul>
+    <li>Alat Barter → ditukar dengan produk pangan komunitas (beras, telur, daging).</li>
+    <li>Akses Khusus → holder MOO dapat potongan harga produk mitra.</li>
+    <li>Governance → ikut voting keputusan komunitas (DAO sederhana).</li>
+    <li>Ekonomi Desa → token sirkulasi di program barter desa.</li>
+  </ul>
+</section>
+
+<section id="roadmap">
+  <h2>Roadmap</h2>
+  <div class="timeline">
+    <div><strong>Tahun 1 – Fondasi:</strong> Launch MooToken, listing DEX, bangun komunitas, mulai buyback bulanan.</div>
+    <div><strong>Tahun 2 – Penguatan:</strong> Laporan rutin, tambah likuiditas, gandeng 100+ petani/peternak mitra.</div>
+    <div><strong>Tahun 3 – Ekspansi Komunitas:</strong> Program barter desa, rilis MooWallet/MooPay sederhana, kerja sama koperasi.</div>
+    <div><strong>Tahun 4 – Skala Nasional:</strong> Ekspansi ke berbagai daerah, listing di CEX lokal, MooToken jadi alat pembayaran komunitas.</div>
+    <div><strong>Tahun 5 – Global:</strong> Listing di CEX besar, branding internasional, ekspor-impor hasil tani & ternak → buyback MOO, bentuk Moo Foundation.</div>
+  </div>
+</section>
+
+<section id="visi">
+  <h2>Visi Jangka Panjang</h2>
+  <p>MooToken adalah simbol ekonomi pangan Indonesia yang transparan, berkelanjutan, dan terdesentralisasi. Dengan cadangan abadi dan buyback rutin, MOO tumbuh seiring berkembangnya sektor riil. Bukan sekadar token spekulatif, tapi fondasi ekosistem pangan berbasis blockchain.</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 MooToken. <a href="https://drive.google.com/uc?export=download&id=1PGnq_mUmoJTweN2DqbimH7m-QKoXOVpI" target="_blank">Download Whitepaper</a> | <a href="https://t.me/mootoken01" target="_blank">Telegram</a></p>
+</footer>
+
+<script>
+  // Animasi timeline saat scroll
+  const timelineItems = document.querySelectorAll('.timeline div');
+  function revealTimeline() {
+    const triggerBottom = window.innerHeight * 0.85;
+    timelineItems.forEach(item => {
+      const itemTop = item.getBoundingClientRect().top;
+      if(itemTop < triggerBottom){
+        item.classList.add('visible');
+      }
+    });
+  }
+  window.addEventListener('scroll', revealTimeline);
+  window.addEventListener('load', revealTimeline);
+</script>
+
+</body>
+</html>
